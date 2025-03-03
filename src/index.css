@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-primary text-white font-sans;
+}
+
+.section-padding {
+  @apply py-20 px-4 md:px-8 lg:px-16;
+}
+
+.nav-link {
+  @apply cursor-pointer hover:text-light transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-accent hover:bg-light text-white px-6 py-2 rounded-full 
+         transition-all duration-300 transform hover:scale-105;
+}
