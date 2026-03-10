@@ -28,6 +28,35 @@ const projects = [
     github: '',
     Live: ''
   }
+      ,
+    {
+      title: 'AI-Powered Stock Trading Platform',
+      description: 'ML-driven trading platform with historical backtesting ' +
+        'modules for strategy validation. Implemented data processing pipelines, ' +
+        'performance metrics, and strategy evaluation framework.',
+      image: 'https://i.ibb.co/qS5cVYx/Screenshot-2025-03-02-143131.png',
+      technologies: ['Python', 'Machine Learning', 'Pandas', 'NumPy'],
+      github: 'https://github.com/Nikhilesh796/AI-Powered-Stock-and-ETF-Signal-Generation-Platform',
+      Live: ''
+    },
+    {
+      title: 'Smart Task Manager',
+      description: 'Java-based task management system with Swing GUI. Provides ' +
+        'comprehensive task tracking, scheduling, and management capabilities.',
+      image: 'https://i.ibb.co/h8qZ3cG/Screenshot-2025-03-02-143131.png',
+      technologies: ['Java', 'Swing', 'Database'],
+      github: 'https://github.com/Nikhilesh796/SmartTaskManager-Java',
+      Live: ''
+    },
+    {
+      title: 'Hotel Management System',
+      description: 'Full-stack web application for managing hotel operations. ' +
+        'Features room management, booking system, and guest information tracking.',
+      image: 'https://i.ibb.co/nC0v1bQ/Screenshot-2025-03-02-143131.png',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Backend'],
+      github: 'https://github.com/Nikhilesh796/hotel-management-with-FWD',
+      Live: ''
+    }
 
 ];
 
